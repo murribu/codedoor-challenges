@@ -15,6 +15,10 @@ Make sure you have a working development environment: an IDE, Node.JS 8.
 - Feel free to add your own tests
 - Commit the solution to your fork.
 
+## Support
+
+Please let me know if you want to start working on the first challenge, and join the [gitter channel](https://gitter.im/codedoor-challenges/Lobby), so I can support you. Alternatively you can [DM me on Twitter](https://twitter.com/coderbyheart/) or [report problems as issues](https://github.com/coderbyheart/codedoor-challenges/issues).
+
 ### Challenge 01: Pattern Converter
 
 Running tests: `npx jest -w __test__/01`
@@ -29,3 +33,4 @@ I also show some common project defaults when writing JavaScript code (like lint
 
  - [standard](https://www.npmjs.com/package/standard) defines how the source code should be formatted. Use `npm run lint -- --fix` to automatically fix your source code formatting.
  - [commitlint](http://marionebl.github.io/commitlint/) enforces a certain (parseable) format of commit messages.
+
