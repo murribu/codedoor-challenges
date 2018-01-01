@@ -1,0 +1,37 @@
+{
+  "name": "codedoor-challenges",
+  "version": "1.0.0",
+  "description": "Coding challenges for introducing TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard",
+    "precommit": "npm run lint",
+    "commitmsg": "commitlint -e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderbyheart/codedoor-challenges.git"
+  },
+  "keywords": [
+    "javascript",
+    "tdd",
+    "challenge"
+  ],
+  "author": "Markus Tacker | https://coderbyheart.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderbyheart/codedoor-challenges/issues"
+  },
+  "homepage": "https://github.com/coderbyheart/codedoor-challenges#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^5.2.8",
+    "@commitlint/config-angular": "^5.1.1",
+    "husky": "^0.14.3",
+    "jest": "^22.0.4",
+    "standard": "^10.0.3"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
