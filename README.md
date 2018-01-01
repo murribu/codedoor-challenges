@@ -1,7 +1,6 @@
 # [CodeDoor](http://codedoor.org/) TDD challenges
 
 [![Join the chat at https://gitter.im/codedoor-challenges/Lobby](https://badges.gitter.im/codedoor-challenges/Lobby.svg)](https://gitter.im/codedoor-challenges/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
