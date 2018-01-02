@@ -21,4 +21,21 @@
  * @returns {number[]} Returns the bytes in a list.
  */
 exports.patternConverter = str => {
+  if (str.length !== 64) {
+    throw exception('Nope!')
+  }
+  var retVal = []
+  for (var byteStart = 0; byteStart <= 63; byteStart += 8) {
+    var bits = 0b0
+    for (var bitStart = 0; bitStart <= 7; bitStart++) {
+      bits += str.substring(byteStart + bitStart, byteStart + bitStart + 1) === '●' ? 0b1 << (7 - bitStart) : 0b0
+    }
+    retVal.push(bits)
+  }
+  return retVal
+}
+
+var exception = (message) => {
+  this.message = message
+  this.name = 'Exception'
 }
